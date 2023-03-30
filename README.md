@@ -2,7 +2,7 @@
 Webpage made with the objetive that create a connection with the MySQL DB.
 
 ## DB SQL Script
-```(sql)
+```sql
 create database cajero;
 use cajero;
 
@@ -15,7 +15,7 @@ CREATE TABLE usuarios(
 ```
 
 ## SQL Users Script
-```
+```powershell
 INSERT INTO usuarios (nombre, saldo, tipo_cuenta) VALUES (kevin, 100000, 0);
 INSERT INTO usuarios (nombre, saldo, tipo_cuenta) VALUES (juanito, 5000, 1);
 ```
